@@ -9,7 +9,6 @@ const withMDX = require('@next/mdx')({
     // providerImportSource: "@mdx-js/react",
   },
 });
-
 const withTM = require('next-transpile-modules')(['ui']);
 
 module.exports = withMDX(
