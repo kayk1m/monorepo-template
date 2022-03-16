@@ -28,6 +28,8 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.env*
+!.env*.example
 
 # turbo
 .turbo
@@ -38,3 +40,6 @@ yarn-error.log*
 
 # vscode
 .vscode
+
+# Build Result
+dist
