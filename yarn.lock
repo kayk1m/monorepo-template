@@ -5,6 +5,92 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@apps/docs@workspace:apps/docs":
+  version: 0.0.0-use.local
+  resolution: "@apps/docs@workspace:apps/docs"
+  dependencies:
+    "@mdx-js/loader": 2.0.0
+    "@mdx-js/react": 2.1.1
+    "@next/mdx": 12.1.0
+    "@packages/config": "workspace:*"
+    "@packages/tsconfig": "workspace:*"
+    "@packages/ui": "*"
+    "@tailwindcss/typography": 0.5.2
+    "@types/node": ^17.0.12
+    "@types/react": 17.0.37
+    autoprefixer: 10.4.2
+    clsx: 1.1.1
+    eslint: 8.11.0
+    next: 12.1.0
+    next-transpile-modules: 9.0.0
+    nextjs-progressbar: 0.0.14
+    postcss: 8.4.8
+    postcss-focus-visible: 6.0.4
+    react: 17.0.2
+    react-dom: 17.0.2
+    tailwindcss: 3.0.23
+    typescript: 4.6.2
+    webpack: 5.71.0
+  languageName: unknown
+  linkType: soft
+
+"@apps/server@workspace:apps/server":
+  version: 0.0.0-use.local
+  resolution: "@apps/server@workspace:apps/server"
+  dependencies:
+    "@packages/config": "workspace:*"
+    "@packages/tsconfig": "workspace:*"
+    "@types/compression": 1.7.2
+    "@types/cors": 2.8.12
+    "@types/express": 4.17.13
+    "@types/helmet": 4.0.0
+    "@types/morgan": 1.9.3
+    "@types/node": 17.0.16
+    compression: 1.7.4
+    cors: 2.8.5
+    dotenv: 16.0.0
+    eslint: 8.8.0
+    express: 4.17.2
+    helmet: 5.0.2
+    http-status-codes: 2.2.0
+    joi: 17.6.0
+    morgan: 1.10.0
+    nodemon: 2.0.15
+    rimraf: 3.0.2
+    ts-node: 10.5.0
+    typescript: 4.5.5
+    winston: 3.3.3
+  languageName: unknown
+  linkType: soft
+
+"@apps/web@workspace:apps/web":
+  version: 0.0.0-use.local
+  resolution: "@apps/web@workspace:apps/web"
+  dependencies:
+    "@packages/config": "workspace:*"
+    "@packages/tsconfig": "workspace:*"
+    "@packages/ui": "workspace:*"
+    "@types/node": 16.11.9
+    "@types/nprogress": 0.2.0
+    "@types/react": 17.0.35
+    autoprefixer: 10.4.0
+    bowser: 2.11.0
+    eslint: 7.32.0
+    immutability-helper: 3.1.1
+    joi: 17.6.0
+    mongodb: 4.4.0
+    next: 12.1.0
+    next-transpile-modules: 9.0.0
+    nextjs-progressbar: 0.0.14
+    postcss: 8.4.4
+    postcss-focus-visible: 6.0.1
+    react: 17.0.2
+    react-dom: 17.0.2
+    tailwindcss: 3.0.23
+    typescript: 4.5.4
+  languageName: unknown
+  linkType: soft
+
 "@babel/code-frame@npm:7.12.11":
   version: 7.12.11
   resolution: "@babel/code-frame@npm:7.12.11"
@@ -488,6 +574,48 @@ __metadata:
   checksum: c96381d4a37448ea280951e46233f7e541058cf57a57d4094dd4bdcaae43fa5872b5f2eb6bfb004591a68e29c5877abe3cdc210cb3588cbf20ab2877f31a7de7
   languageName: node
   linkType: hard
+
+"@packages/config@workspace:*, @packages/config@workspace:packages/config":
+  version: 0.0.0-use.local
+  resolution: "@packages/config@workspace:packages/config"
+  dependencies:
+    "@typescript-eslint/parser": 5.15.0
+    eslint: 8.12.0
+    eslint-config-next: 12.1.0
+    eslint-config-prettier: 8.5.0
+    eslint-import-resolver-node: 0.3.6
+    eslint-import-resolver-typescript: 2.5.0
+    eslint-plugin-import: 2.25.4
+    eslint-plugin-react: 7.28.0
+    eslint-plugin-unused-imports: 2.0.0
+    next: 12.1.4
+    react: 17.0.2
+    react-dom: 17.0.2
+  languageName: unknown
+  linkType: soft
+
+"@packages/tsconfig@workspace:*, @packages/tsconfig@workspace:packages/tsconfig":
+  version: 0.0.0-use.local
+  resolution: "@packages/tsconfig@workspace:packages/tsconfig"
+  languageName: unknown
+  linkType: soft
+
+"@packages/ui@*, @packages/ui@workspace:*, @packages/ui@workspace:packages/ui":
+  version: 0.0.0-use.local
+  resolution: "@packages/ui@workspace:packages/ui"
+  dependencies:
+    "@headlessui/react": 1.5.0
+    "@heroicons/react": 1.0.6
+    "@packages/config": "workspace:*"
+    "@packages/tsconfig": "workspace:*"
+    "@types/react": 17.0.40
+    "@types/react-dom": 17.0.13
+    clsx: 1.1.1
+    react: 17.0.2
+    react-dom: 17.0.2
+    typescript: 4.6.2
+  languageName: unknown
+  linkType: soft
 
 "@rushstack/eslint-patch@npm:^1.0.8":
   version: 1.1.0
@@ -1229,48 +1357,6 @@ __metadata:
   checksum: f15ae4c2441b979a3b4fce78f3d83472fb22350c6dc3fd34bfe7c3da108e0b2360718734d961bba20e7716cb8578e964b870da55b035e209e50ec9db0378a3f7
   languageName: node
   linkType: hard
-
-"@workspace/config@workspace:*, @workspace/config@workspace:packages/config":
-  version: 0.0.0-use.local
-  resolution: "@workspace/config@workspace:packages/config"
-  dependencies:
-    "@typescript-eslint/parser": 5.15.0
-    eslint: 8.12.0
-    eslint-config-next: 12.1.0
-    eslint-config-prettier: 8.5.0
-    eslint-import-resolver-node: 0.3.6
-    eslint-import-resolver-typescript: 2.5.0
-    eslint-plugin-import: 2.25.4
-    eslint-plugin-react: 7.28.0
-    eslint-plugin-unused-imports: 2.0.0
-    next: 12.1.4
-    react: 17.0.2
-    react-dom: 17.0.2
-  languageName: unknown
-  linkType: soft
-
-"@workspace/tsconfig@workspace:*, @workspace/tsconfig@workspace:packages/tsconfig":
-  version: 0.0.0-use.local
-  resolution: "@workspace/tsconfig@workspace:packages/tsconfig"
-  languageName: unknown
-  linkType: soft
-
-"@workspace/ui@*, @workspace/ui@workspace:*, @workspace/ui@workspace:packages/ui":
-  version: 0.0.0-use.local
-  resolution: "@workspace/ui@workspace:packages/ui"
-  dependencies:
-    "@headlessui/react": 1.5.0
-    "@heroicons/react": 1.0.6
-    "@types/react": 17.0.40
-    "@types/react-dom": 17.0.13
-    "@workspace/config": "workspace:*"
-    "@workspace/tsconfig": "workspace:*"
-    clsx: 1.1.1
-    react: 17.0.2
-    react-dom: 17.0.2
-    typescript: 4.6.2
-  languageName: unknown
-  linkType: soft
 
 "@xtuc/ieee754@npm:^1.2.0":
   version: 1.2.0
@@ -2483,35 +2569,6 @@ __metadata:
   checksum: d7381bca22ed11933a1ccf376db7a94bee2c57aa61e490f680124fa2d1cd27e94eba641d9f45be57caab4f9a6579de0983466f620a2cd6230d7ec93312105ae7
   languageName: node
   linkType: hard
-
-"docs@workspace:apps/docs":
-  version: 0.0.0-use.local
-  resolution: "docs@workspace:apps/docs"
-  dependencies:
-    "@mdx-js/loader": 2.0.0
-    "@mdx-js/react": 2.1.1
-    "@next/mdx": 12.1.0
-    "@tailwindcss/typography": 0.5.2
-    "@types/node": ^17.0.12
-    "@types/react": 17.0.37
-    "@workspace/config": "workspace:*"
-    "@workspace/tsconfig": "workspace:*"
-    "@workspace/ui": "*"
-    autoprefixer: 10.4.2
-    clsx: 1.1.1
-    eslint: 8.11.0
-    next: 12.1.0
-    next-transpile-modules: 9.0.0
-    nextjs-progressbar: 0.0.14
-    postcss: 8.4.8
-    postcss-focus-visible: 6.0.4
-    react: 17.0.2
-    react-dom: 17.0.2
-    tailwindcss: 3.0.23
-    typescript: 4.6.2
-    webpack: 5.71.0
-  languageName: unknown
-  linkType: soft
 
 "doctrine@npm:^2.1.0":
   version: 2.1.0
@@ -6621,35 +6678,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"server@workspace:apps/server":
-  version: 0.0.0-use.local
-  resolution: "server@workspace:apps/server"
-  dependencies:
-    "@types/compression": 1.7.2
-    "@types/cors": 2.8.12
-    "@types/express": 4.17.13
-    "@types/helmet": 4.0.0
-    "@types/morgan": 1.9.3
-    "@types/node": 17.0.16
-    "@workspace/config": "workspace:*"
-    "@workspace/tsconfig": "workspace:*"
-    compression: 1.7.4
-    cors: 2.8.5
-    dotenv: 16.0.0
-    eslint: 8.8.0
-    express: 4.17.2
-    helmet: 5.0.2
-    http-status-codes: 2.2.0
-    joi: 17.6.0
-    morgan: 1.10.0
-    nodemon: 2.0.15
-    rimraf: 3.0.2
-    ts-node: 10.5.0
-    typescript: 4.5.5
-    winston: 3.3.3
-  languageName: unknown
-  linkType: soft
-
 "set-blocking@npm:^2.0.0":
   version: 2.0.0
   resolution: "set-blocking@npm:2.0.0"
@@ -7765,34 +7793,6 @@ turbo@latest:
   checksum: 70a34f92842d94b5d842980f866d568d7a467de667c96ae5759c759f46587e49265863171f4650bdbafc5f3870a28f2b4453e9e847098ec4b718b38926d47d22
   languageName: node
   linkType: hard
-
-"web@workspace:apps/web":
-  version: 0.0.0-use.local
-  resolution: "web@workspace:apps/web"
-  dependencies:
-    "@types/node": 16.11.9
-    "@types/nprogress": 0.2.0
-    "@types/react": 17.0.35
-    "@workspace/config": "workspace:*"
-    "@workspace/tsconfig": "workspace:*"
-    "@workspace/ui": "workspace:*"
-    autoprefixer: 10.4.0
-    bowser: 2.11.0
-    eslint: 7.32.0
-    immutability-helper: 3.1.1
-    joi: 17.6.0
-    mongodb: 4.4.0
-    next: 12.1.0
-    next-transpile-modules: 9.0.0
-    nextjs-progressbar: 0.0.14
-    postcss: 8.4.4
-    postcss-focus-visible: 6.0.1
-    react: 17.0.2
-    react-dom: 17.0.2
-    tailwindcss: 3.0.23
-    typescript: 4.5.4
-  languageName: unknown
-  linkType: soft
 
 "webidl-conversions@npm:^7.0.0":
   version: 7.0.0
