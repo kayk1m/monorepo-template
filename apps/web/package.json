@@ -27,6 +27,7 @@
     "@types/react": "17.0.35",
     "autoprefixer": "10.4.0",
     "eslint": "7.32.0",
+    "eslint-config-next": "12.1.4",
     "next-transpile-modules": "9.0.0",
     "postcss": "8.4.4",
     "postcss-focus-visible": "6.0.1",
