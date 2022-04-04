@@ -1,6 +1,4 @@
 {
-  "name": "monorepo-template",
-  "version": "0.0.0",
   "private": true,
   "workspaces": [
     "apps/*",
@@ -18,8 +16,10 @@
     "turbo": "latest"
   },
   "engines": {
-    "npm": ">=7.0.0",
-    "node": ">=14.0.0"
+    "npm": "pleanse-use-yarn",
+    "node": ">=14.0.0",
+    "yarn": "^3"
   },
+  "engineStrict": true,
   "packageManager": "yarn@3.2.0"
 }

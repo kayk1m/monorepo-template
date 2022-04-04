@@ -938,6 +938,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@workspace/config@workspace:*, @workspace/config@workspace:packages/config":
+  version: 0.0.0-use.local
+  resolution: "@workspace/config@workspace:packages/config"
+  dependencies:
+    "@typescript-eslint/parser": 5.15.0
+    eslint-config-next: 12.1.0
+    eslint-config-prettier: 8.5.0
+    eslint-import-resolver-node: 0.3.6
+    eslint-import-resolver-typescript: 2.5.0
+    eslint-plugin-import: 2.25.4
+    eslint-plugin-react: 7.28.0
+    eslint-plugin-unused-imports: 2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@workspace/tsconfig@workspace:*, @workspace/tsconfig@workspace:packages/tsconfig":
+  version: 0.0.0-use.local
+  resolution: "@workspace/tsconfig@workspace:packages/tsconfig"
+  languageName: unknown
+  linkType: soft
+
+"@workspace/ui@*, @workspace/ui@workspace:*, @workspace/ui@workspace:packages/ui":
+  version: 0.0.0-use.local
+  resolution: "@workspace/ui@workspace:packages/ui"
+  dependencies:
+    "@headlessui/react": 1.5.0
+    "@heroicons/react": 1.0.6
+    "@types/react": 17.0.40
+    "@types/react-dom": 17.0.13
+    "@workspace/config": "workspace:*"
+    "@workspace/tsconfig": "workspace:*"
+    clsx: 1.1.1
+    typescript: 4.6.2
+  languageName: unknown
+  linkType: soft
+
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -1757,21 +1793,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"config@*, config@workspace:packages/config":
-  version: 0.0.0-use.local
-  resolution: "config@workspace:packages/config"
-  dependencies:
-    "@typescript-eslint/parser": 5.15.0
-    eslint-config-next: 12.1.0
-    eslint-config-prettier: 8.5.0
-    eslint-import-resolver-node: 0.3.6
-    eslint-import-resolver-typescript: 2.5.0
-    eslint-plugin-import: 2.25.4
-    eslint-plugin-react: 7.28.0
-    eslint-plugin-unused-imports: 2.0.0
-  languageName: unknown
-  linkType: soft
-
 "configstore@npm:^5.0.1":
   version: 5.0.1
   resolution: "configstore@npm:5.0.1"
@@ -2099,9 +2120,11 @@ __metadata:
     "@tailwindcss/typography": 0.5.2
     "@types/node": ^17.0.12
     "@types/react": 17.0.37
+    "@workspace/config": "workspace:*"
+    "@workspace/tsconfig": "workspace:*"
+    "@workspace/ui": "*"
     autoprefixer: 10.4.2
     clsx: 1.1.1
-    config: "*"
     eslint: 8.11.0
     next: 12.1.0
     next-transpile-modules: 9.0.0
@@ -2111,9 +2134,7 @@ __metadata:
     react: 17.0.2
     react-dom: 17.0.2
     tailwindcss: 3.0.23
-    tsconfig: "*"
     typescript: 4.6.2
-    ui: "*"
   languageName: unknown
   linkType: soft
 
@@ -4825,16 +4846,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"monorepo-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "monorepo-template@workspace:."
-  dependencies:
-    prettier: 2.5.1
-    prettier-plugin-tailwindcss: 0.1.8
-    turbo: latest
-  languageName: unknown
-  linkType: soft
-
 "morgan@npm:1.10.0":
   version: 1.10.0
   resolution: "morgan@npm:1.10.0"
@@ -5884,6 +5895,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"root-workspace-0b6124@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "root-workspace-0b6124@workspace:."
+  dependencies:
+    prettier: 2.5.1
+    prettier-plugin-tailwindcss: 0.1.8
+    turbo: latest
+  languageName: unknown
+  linkType: soft
+
 "run-parallel@npm:^1.1.9":
   version: 1.2.0
   resolution: "run-parallel@npm:1.2.0"
@@ -6030,8 +6051,9 @@ __metadata:
     "@types/helmet": 4.0.0
     "@types/morgan": 1.9.3
     "@types/node": 17.0.16
+    "@workspace/config": "workspace:*"
+    "@workspace/tsconfig": "workspace:*"
     compression: 1.7.4
-    config: "*"
     cors: 2.8.5
     dotenv: 16.0.0
     eslint: 8.8.0
@@ -6043,7 +6065,6 @@ __metadata:
     nodemon: 2.0.15
     rimraf: 3.0.2
     ts-node: 10.5.0
-    tsconfig: "*"
     typescript: 4.5.5
     winston: 3.3.3
   languageName: unknown
@@ -6545,12 +6566,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig@*, tsconfig@workspace:packages/tsconfig":
-  version: 0.0.0-use.local
-  resolution: "tsconfig@workspace:packages/tsconfig"
-  languageName: unknown
-  linkType: soft
-
 "tslib@npm:^1.8.1":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
@@ -6794,21 +6809,6 @@ turbo@latest:
   checksum: 40b493a71747fb89fa70df104e2c4a5e284b43750af5bea024090a5261cefa387f7a9372411b13030f7bf5555cee4275443d08805642ae5c74ef76740854a4c7
   languageName: node
   linkType: hard
-
-"ui@*, ui@workspace:packages/ui":
-  version: 0.0.0-use.local
-  resolution: "ui@workspace:packages/ui"
-  dependencies:
-    "@headlessui/react": 1.5.0
-    "@heroicons/react": 1.0.6
-    "@types/react": 17.0.40
-    "@types/react-dom": 17.0.13
-    clsx: 1.1.1
-    config: "*"
-    tsconfig: "*"
-    typescript: 4.6.2
-  languageName: unknown
-  linkType: soft
 
 "unbox-primitive@npm:^1.0.1":
   version: 1.0.1
@@ -7107,9 +7107,11 @@ turbo@latest:
     "@types/node": 16.11.9
     "@types/nprogress": 0.2.0
     "@types/react": 17.0.35
+    "@workspace/config": "workspace:*"
+    "@workspace/tsconfig": "workspace:*"
+    "@workspace/ui": "workspace:*"
     autoprefixer: 10.4.0
     bowser: 2.11.0
-    config: "*"
     eslint: 7.32.0
     immutability-helper: 3.1.1
     joi: 17.6.0
@@ -7122,9 +7124,7 @@ turbo@latest:
     react: 17.0.2
     react-dom: 17.0.2
     tailwindcss: 3.0.23
-    tsconfig: "*"
     typescript: 4.5.4
-    ui: "*"
   languageName: unknown
   linkType: soft
 
