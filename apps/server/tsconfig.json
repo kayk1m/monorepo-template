@@ -1,5 +1,5 @@
 {
-  "extends": "@workspace/tsconfig/server.json",
+  "extends": "@packages/tsconfig/server.json",
   "compilerOptions": {
     "outDir": "./dist",
     "importsNotUsedAsValues": "error",

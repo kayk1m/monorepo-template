@@ -20,14 +20,14 @@
     "winston": "3.3.3"
   },
   "devDependencies": {
+    "@packages/config": "workspace:*",
+    "@packages/tsconfig": "workspace:*",
     "@types/compression": "1.7.2",
     "@types/cors": "2.8.12",
     "@types/express": "4.17.13",
     "@types/helmet": "4.0.0",
     "@types/morgan": "1.9.3",
     "@types/node": "17.0.16",
-    "@workspace/config": "workspace:*",
-    "@workspace/tsconfig": "workspace:*",
     "eslint": "8.8.0",
     "nodemon": "2.0.15",
     "ts-node": "10.5.0",

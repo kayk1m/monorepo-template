@@ -1,5 +1,5 @@
 {
-  "extends": "@workspace/tsconfig/nextjs.json",
+  "extends": "@packages/tsconfig/nextjs.json",
   "compilerOptions": {
     "importsNotUsedAsValues": "error",
     "baseUrl": ".",

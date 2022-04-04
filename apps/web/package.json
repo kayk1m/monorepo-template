@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@workspace/ui": "workspace:*",
+    "@packages/ui": "workspace:*",
     "bowser": "2.11.0",
     "immutability-helper": "3.1.1",
     "joi": "17.6.0",
@@ -20,11 +20,11 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@packages/config": "workspace:*",
+    "@packages/tsconfig": "workspace:*",
     "@types/node": "16.11.9",
     "@types/nprogress": "0.2.0",
     "@types/react": "17.0.35",
-    "@workspace/config": "workspace:*",
-    "@workspace/tsconfig": "workspace:*",
     "autoprefixer": "10.4.0",
     "eslint": "7.32.0",
     "next-transpile-modules": "9.0.0",

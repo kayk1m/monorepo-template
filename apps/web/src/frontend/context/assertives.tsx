@@ -1,4 +1,4 @@
-import { Notification, type NotificationProps } from '@workspace/ui';
+import { Notification, type NotificationProps } from '@packages/ui';
 import update from 'immutability-helper';
 import { createContext, ReactNode, Reducer, useContext, useMemo, useReducer, useRef } from 'react';
 
