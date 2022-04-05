@@ -36,7 +36,7 @@
     "typescript": "4.6.3"
   },
   "engines": {
-    "npm": "pleanse-use-yarn",
+    "npm": "please-use-yarn",
     "node": ">=14.0.0",
     "yarn": "^3"
   },
