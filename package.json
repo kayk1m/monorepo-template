@@ -19,7 +19,7 @@
     "packages/ui/**/*.{js,ts,jsx,tsx}": [
       "eslint --fix"
     ],
-    "*.json": [
+    "**/src/**/*.json": [
       "prettier --write"
     ]
   },
@@ -27,6 +27,7 @@
     "eslint": "8.12.0",
     "husky": "7.0.4",
     "lint-staged": "12.3.7",
+    "next": "12.1.4",
     "prettier": "2.5.1",
     "prettier-plugin-tailwindcss": "0.1.8",
     "turbo": "latest",
