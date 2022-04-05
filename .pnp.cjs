@@ -98,7 +98,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-prettier", "virtual:f0054a826415c8cfae5472c310a86f43739f7b31cba6b7a843f3cd981e187e63925c6db18a30c62f0d25bea09e968671e44598b3b02de8a46e09131a806ce4f1#npm:8.5.0"],\
             ["eslint-plugin-import", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:2.25.4"],\
             ["eslint-plugin-unused-imports", "virtual:f0054a826415c8cfae5472c310a86f43739f7b31cba6b7a843f3cd981e187e63925c6db18a30c62f0d25bea09e968671e44598b3b02de8a46e09131a806ce4f1#npm:2.0.0"],\
-            ["immutability-helper", "npm:3.1.1"],\
             ["next", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:12.1.0"],\
             ["next-transpile-modules", "npm:9.0.0"],\
             ["nextjs-progressbar", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:0.0.14"],\
