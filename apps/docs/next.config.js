@@ -9,13 +9,10 @@ const withMDX = require('@next/mdx')({
     // providerImportSource: "@mdx-js/react",
   },
 });
-const withTM = require('next-transpile-modules')(['@packages/ui']);
 
-module.exports = withMDX(
-  withTM({
-    // Append the default value with md extensions
-    pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+module.exports = withMDX({
+  // Append the default value with md extensions
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
 
-    reactStrictMode: true,
-  }),
-);
+  reactStrictMode: true,
+});
