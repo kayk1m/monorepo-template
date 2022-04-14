@@ -9,6 +9,5 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "experimentalDecorators": true
-  },
-  "exclude": ["node_modules"]
+  }
 }

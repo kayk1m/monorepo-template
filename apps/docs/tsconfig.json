@@ -1,7 +1,6 @@
 {
   "extends": "@packages/tsconfig/nextjs.json",
   "compilerOptions": {
-    "importsNotUsedAsValues": "error",
     "baseUrl": ".",
     "paths": {
       "@/assets/*": ["src/assets/*"],
