@@ -1,9 +1,5 @@
 {
   "name": "@packages/config",
-  "version": "0.0.0",
-  "license": "MIT",
-  "files": [
-    "eslint-next.js",
-    "eslint-server.js"
-  ]
+  "version": "*",
+  "private": true
 }

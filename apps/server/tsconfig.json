@@ -1,10 +1,13 @@
 {
   "extends": "@packages/tsconfig/server.json",
   "compilerOptions": {
-    "outDir": "./build",
-    "importsNotUsedAsValues": "error",
-    "typeRoots": ["node_modules/@types", "**/types/*"]
+    "outDir": "dist"
   },
   "include": ["**/*.ts"],
-  "exclude": ["node_modules", "build"]
+  "exclude": ["dist"],
+  "references": [
+    {
+      "path": "../../packages/logger"
+    }
+  ]
 }
