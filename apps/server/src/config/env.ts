@@ -1,29 +1,12 @@
 import { config } from 'dotenv';
-import Joi from 'joi';
+import { z } from 'zod';
 
 config();
 
-const envVarsSchema = Joi.object()
-  .keys({
-    NODE_ENV: Joi.string().valid('production', 'development', 'test').required(),
-    PORT: Joi.number().default(8080),
-    REDIS: Joi.string().default('localhost:6399'),
-  })
-  .unknown();
+const envSchema = z.object({
+  NODE_ENV: z.enum(['production', 'development', 'test']),
+  PORT: z.number().default(8080),
+  REDIS: z.string().url().default('localhost:6399'),
+});
 
-const { value, error } = envVarsSchema
-  .prefs({ errors: { label: 'key' } })
-  .validate(process.env) as {
-  value: {
-    NODE_ENV: 'production' | 'development' | 'test';
-    PORT: number;
-    REDIS: string;
-  };
-  error: any;
-};
-
-if (error) {
-  throw new Error(`Config validation error: ${error.message}`);
-}
-
-export const ENV = value;
+export const ENV = envSchema.parse(process.env);

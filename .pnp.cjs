@@ -145,7 +145,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:34650c377aba4eef14f4d53e1bb45e0465d9f0c221b796862deb2b8607014ccf5ad85aeec47f782c2dfcbb02010beb594fa9d11e9f88835a7a2f2084cf399b8a#npm:2.26.0"],\
             ["eslint-plugin-unused-imports", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:2.0.0"],\
             ["ioredis", "npm:5.0.4"],\
-            ["joi", "npm:17.6.0"],\
             ["koa", "npm:2.13.4"],\
             ["koa-bodyparser", "npm:4.3.0"],\
             ["koa-helmet", "npm:6.1.0"],\
@@ -153,7 +152,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["npm-run-all", "npm:4.1.5"],\
             ["rate-limiter-flexible", "npm:2.3.6"],\
             ["ts-node", "virtual:34650c377aba4eef14f4d53e1bb45e0465d9f0c221b796862deb2b8607014ccf5ad85aeec47f782c2dfcbb02010beb594fa9d11e9f88835a7a2f2084cf399b8a#npm:10.7.0"],\
-            ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
+            ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"],\
+            ["zod", "npm:3.14.4"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -9638,6 +9638,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/yn-npm-3.1.1-8ad4259784-2c487b0e14.zip/node_modules/yn/",\
           "packageDependencies": [\
             ["yn", "npm:3.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["zod", [\
+        ["npm:3.14.4", {\
+          "packageLocation": "./.yarn/cache/zod-npm-3.14.4-23761ead8b-30e75dc1e4.zip/node_modules/zod/",\
+          "packageDependencies": [\
+            ["zod", "npm:3.14.4"]\
           ],\
           "linkType": "HARD"\
         }]\
