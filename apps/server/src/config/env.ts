@@ -7,6 +7,7 @@ const envVarsSchema = Joi.object()
   .keys({
     NODE_ENV: Joi.string().valid('production', 'development', 'test').required(),
     PORT: Joi.number().default(8080),
+    REDIS: Joi.string().default('localhost:6399'),
   })
   .unknown();
 
@@ -16,6 +17,7 @@ const { value, error } = envVarsSchema
   value: {
     NODE_ENV: 'production' | 'development' | 'test';
     PORT: number;
+    REDIS: string;
   };
   error: any;
 };
