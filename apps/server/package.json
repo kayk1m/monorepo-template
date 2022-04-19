@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_ENV=development nodemon src/index.ts | pino-pretty -c -t \"mm-dd HH:MM:ss.l\" -f",
+    "dev": "nodemon src/index.ts | pino-pretty -c -t \"mm-dd HH:MM:ss.l\" -f",
     "d-up": "docker-compose up -d",
     "d-down": "docker-compose down --volumes --remove-orphans",
     "dx": "run-s d-up dev",
