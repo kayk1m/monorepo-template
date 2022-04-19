@@ -5,7 +5,7 @@ config();
 
 const envSchema = z.object({
   NODE_ENV: z.enum(['production', 'development', 'test']).default('development'),
-  PORT: z.number().default(8080),
+  PORT: z.preprocess((v) => Number(v), z.number().default(8080)),
   REDIS: z.string().url().default('localhost:6399'),
 });
 
