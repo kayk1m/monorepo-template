@@ -12,7 +12,7 @@
     "pino": "^8.8.0"
   },
   "devDependencies": {
-    "@packages/config": "workspace:*",
+    "@packages/eslint-config": "workspace:*",
     "@packages/tsconfig": "workspace:*",
     "@types/koa-pino-logger": "^3.0.1",
     "@types/node": "^18.11.18",

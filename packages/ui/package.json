@@ -5,7 +5,7 @@
   "devDependencies": {
     "@headlessui/react": "^1.7.7",
     "@heroicons/react": "^2.0.13",
-    "@packages/config": "workspace:*",
+    "@packages/eslint-config": "workspace:*",
     "@packages/tsconfig": "workspace:*",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",

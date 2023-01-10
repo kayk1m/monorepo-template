@@ -1,5 +1,5 @@
 {
-  "name": "@packages/config",
+  "name": "@packages/eslint-config",
   "version": "*",
   "private": true,
   "devDependencies": {

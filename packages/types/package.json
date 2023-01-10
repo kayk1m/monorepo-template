@@ -1,8 +1,0 @@
-{
-  "name": "@packages/types",
-  "version": "*",
-  "private": true,
-  "devDependencies": {
-    "@packages/tsconfig": "workspace:*"
-  }
-}

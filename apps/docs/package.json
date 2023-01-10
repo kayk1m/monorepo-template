@@ -18,7 +18,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@packages/config": "workspace:*",
+    "@packages/eslint-config": "workspace:*",
     "@packages/tsconfig": "workspace:*",
     "@tailwindcss/typography": "^0.5.8",
     "@types/node": "^18.11.18",

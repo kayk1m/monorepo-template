@@ -12,7 +12,7 @@ __metadata:
     "@mdx-js/loader": ^2.2.1
     "@mdx-js/react": ^2.2.1
     "@next/mdx": ^12.3.4
-    "@packages/config": "workspace:*"
+    "@packages/eslint-config": "workspace:*"
     "@packages/tsconfig": "workspace:*"
     "@tailwindcss/typography": ^0.5.8
     "@types/node": ^18.11.18
@@ -42,7 +42,7 @@ __metadata:
   dependencies:
     "@koa/cors": ^4.0.0
     "@koa/router": ^12.0.0
-    "@packages/config": "workspace:*"
+    "@packages/eslint-config": "workspace:*"
     "@packages/logger": "workspace:*"
     "@packages/tsconfig": "workspace:*"
     "@types/koa": ^2.13.5
@@ -74,7 +74,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@apps/web@workspace:apps/web"
   dependencies:
-    "@packages/config": "workspace:*"
+    "@packages/eslint-config": "workspace:*"
     "@packages/tsconfig": "workspace:*"
     "@packages/ui": "workspace:*"
     "@types/node": ^18.11.18
@@ -469,9 +469,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@packages/config@workspace:*, @packages/config@workspace:packages/config":
+"@packages/eslint-config@workspace:*, @packages/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
-  resolution: "@packages/config@workspace:packages/config"
+  resolution: "@packages/eslint-config@workspace:packages/eslint-config"
   dependencies:
     "@typescript-eslint/parser": ^5.48.1
     eslint: ^8.31.0
@@ -488,7 +488,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@packages/logger@workspace:packages/logger"
   dependencies:
-    "@packages/config": "workspace:*"
+    "@packages/eslint-config": "workspace:*"
     "@packages/tsconfig": "workspace:*"
     "@types/koa-pino-logger": ^3.0.1
     "@types/node": ^18.11.18
@@ -509,21 +509,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@packages/types@workspace:packages/types":
-  version: 0.0.0-use.local
-  resolution: "@packages/types@workspace:packages/types"
-  dependencies:
-    "@packages/tsconfig": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
 "@packages/ui@workspace:*, @packages/ui@workspace:packages/ui":
   version: 0.0.0-use.local
   resolution: "@packages/ui@workspace:packages/ui"
   dependencies:
     "@headlessui/react": ^1.7.7
     "@heroicons/react": ^2.0.13
-    "@packages/config": "workspace:*"
+    "@packages/eslint-config": "workspace:*"
     "@packages/tsconfig": "workspace:*"
     "@types/react": ^18.0.26
     "@types/react-dom": ^18.0.10
