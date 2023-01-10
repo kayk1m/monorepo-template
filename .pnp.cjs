@@ -90,6 +90,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tailwindcss/typography", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:0.5.8"],\
             ["@types/node", "npm:18.11.18"],\
             ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.10"],\
             ["autoprefixer", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:10.4.13"],\
             ["clsx", "npm:1.2.1"],\
             ["eslint", "npm:8.31.0"],\
@@ -98,7 +99,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:2.26.0"],\
             ["eslint-plugin-unused-imports", "virtual:f0054a826415c8cfae5472c310a86f43739f7b31cba6b7a843f3cd981e187e63925c6db18a30c62f0d25bea09e968671e44598b3b02de8a46e09131a806ce4f1#npm:2.0.0"],\
             ["next", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:13.1.1"],\
-            ["next-transpile-modules", "npm:10.0.0"],\
             ["postcss", "npm:8.4.21"],\
             ["postcss-focus-visible", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:7.1.0"],\
             ["react", "npm:18.2.0"],\
@@ -155,8 +155,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@packages/tsconfig", "workspace:packages/tsconfig"],\
             ["@packages/ui", "workspace:packages/ui"],\
             ["@types/node", "npm:18.11.18"],\
-            ["@types/nprogress", "npm:0.2.0"],\
             ["@types/react", "npm:18.0.26"],\
+            ["@types/react-dom", "npm:18.0.10"],\
             ["autoprefixer", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:10.4.13"],\
             ["bowser", "npm:2.11.0"],\
             ["eslint", "npm:8.31.0"],\
@@ -168,7 +168,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["joi", "npm:17.7.0"],\
             ["next", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:13.1.1"],\
             ["next-transpile-modules", "npm:10.0.0"],\
-            ["nextjs-progressbar", "virtual:8bd219e21d69d2a279bf0def21a40ba3d7fc16ad3822f9ada21afa06222f48e8b66fc4e767caa84d2f7595725cad3c9c94ad4d084ac1d3fa09e1eda8a01fe18b#npm:0.0.16"],\
             ["postcss", "npm:8.4.21"],\
             ["postcss-focus-visible", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:7.1.0"],\
             ["react", "npm:18.2.0"],\
@@ -747,7 +746,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-prettier", "virtual:f0054a826415c8cfae5472c310a86f43739f7b31cba6b7a843f3cd981e187e63925c6db18a30c62f0d25bea09e968671e44598b3b02de8a46e09131a806ce4f1#npm:8.6.0"],\
             ["eslint-plugin-import", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:2.26.0"],\
             ["eslint-plugin-unused-imports", "virtual:f0054a826415c8cfae5472c310a86f43739f7b31cba6b7a843f3cd981e187e63925c6db18a30c62f0d25bea09e968671e44598b3b02de8a46e09131a806ce4f1#npm:2.0.0"],\
-            ["next", "virtual:576cc4d2cc244f3af3c540317c2f84ae4d9a046d2b1519763846c613a93498d7e30080f38895c54cb2ed8b1a477d494fed6d10759b4dbb9b81d50d6a277d3c78#npm:13.1.1"],\
+            ["next", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:13.1.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:18.2.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
@@ -1238,15 +1237,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-18.11.18-d61e8a4a20-03f17f9480.zip/node_modules/@types/node/",\
           "packageDependencies": [\
             ["@types/node", "npm:18.11.18"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@types/nprogress", [\
-        ["npm:0.2.0", {\
-          "packageLocation": "./.yarn/cache/@types-nprogress-npm-0.2.0-cd184ad8ed-5613847750.zip/node_modules/@types/nprogress/",\
-          "packageDependencies": [\
-            ["@types/nprogress", "npm:0.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6501,53 +6491,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/fibers", null],\
             ["@types/node-sass", null],\
             ["@types/react", "npm:18.0.26"],\
-            ["@types/react-dom", null],\
-            ["@types/sass", null],\
-            ["caniuse-lite", "npm:1.0.30001442"],\
-            ["fibers", null],\
-            ["node-sass", null],\
-            ["postcss", "npm:8.4.14"],\
-            ["react", "npm:18.2.0"],\
-            ["react-dom", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:18.2.0"],\
-            ["sass", null],\
-            ["styled-jsx", "virtual:d7d74685ad46c08204ded92eaa4d9aedfb3455015b556009ae8097ab775f2b103fb8f7fe98e50bd37d44ea6e1ff9a6e0283f7665680b9d0d8003f7ee72d353a5#npm:5.1.1"]\
-          ],\
-          "packagePeers": [\
-            "@types/fibers",\
-            "@types/node-sass",\
-            "@types/react-dom",\
-            "@types/react",\
-            "@types/sass",\
-            "fibers",\
-            "node-sass",\
-            "react-dom",\
-            "react",\
-            "sass"\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["virtual:576cc4d2cc244f3af3c540317c2f84ae4d9a046d2b1519763846c613a93498d7e30080f38895c54cb2ed8b1a477d494fed6d10759b4dbb9b81d50d6a277d3c78#npm:13.1.1", {\
-          "packageLocation": "./.yarn/__virtual__/next-virtual-966c03d26c/0/cache/next-npm-13.1.1-afb9b36a49-97a9154d62.zip/node_modules/next/",\
-          "packageDependencies": [\
-            ["next", "virtual:576cc4d2cc244f3af3c540317c2f84ae4d9a046d2b1519763846c613a93498d7e30080f38895c54cb2ed8b1a477d494fed6d10759b4dbb9b81d50d6a277d3c78#npm:13.1.1"],\
-            ["@next/env", "npm:13.1.1"],\
-            ["@next/swc-android-arm-eabi", "npm:13.1.1"],\
-            ["@next/swc-android-arm64", "npm:13.1.1"],\
-            ["@next/swc-darwin-arm64", "npm:13.1.1"],\
-            ["@next/swc-darwin-x64", "npm:13.1.1"],\
-            ["@next/swc-freebsd-x64", "npm:13.1.1"],\
-            ["@next/swc-linux-arm-gnueabihf", "npm:13.1.1"],\
-            ["@next/swc-linux-arm64-gnu", "npm:13.1.1"],\
-            ["@next/swc-linux-arm64-musl", "npm:13.1.1"],\
-            ["@next/swc-linux-x64-gnu", "npm:13.1.1"],\
-            ["@next/swc-linux-x64-musl", "npm:13.1.1"],\
-            ["@next/swc-win32-arm64-msvc", "npm:13.1.1"],\
-            ["@next/swc-win32-ia32-msvc", "npm:13.1.1"],\
-            ["@next/swc-win32-x64-msvc", "npm:13.1.1"],\
-            ["@swc/helpers", "npm:0.4.14"],\
-            ["@types/fibers", null],\
-            ["@types/node-sass", null],\
-            ["@types/react", "npm:18.0.26"],\
             ["@types/react-dom", "npm:18.0.10"],\
             ["@types/sass", null],\
             ["caniuse-lite", "npm:1.0.30001442"],\
@@ -6627,35 +6570,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["next-transpile-modules", "npm:10.0.0"],\
             ["enhanced-resolve", "npm:5.12.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["nextjs-progressbar", [\
-        ["npm:0.0.16", {\
-          "packageLocation": "./.yarn/cache/nextjs-progressbar-npm-0.0.16-63ea303e14-b75f7bd1f3.zip/node_modules/nextjs-progressbar/",\
-          "packageDependencies": [\
-            ["nextjs-progressbar", "npm:0.0.16"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:8bd219e21d69d2a279bf0def21a40ba3d7fc16ad3822f9ada21afa06222f48e8b66fc4e767caa84d2f7595725cad3c9c94ad4d084ac1d3fa09e1eda8a01fe18b#npm:0.0.16", {\
-          "packageLocation": "./.yarn/__virtual__/nextjs-progressbar-virtual-616436b46b/0/cache/nextjs-progressbar-npm-0.0.16-63ea303e14-b75f7bd1f3.zip/node_modules/nextjs-progressbar/",\
-          "packageDependencies": [\
-            ["nextjs-progressbar", "virtual:8bd219e21d69d2a279bf0def21a40ba3d7fc16ad3822f9ada21afa06222f48e8b66fc4e767caa84d2f7595725cad3c9c94ad4d084ac1d3fa09e1eda8a01fe18b#npm:0.0.16"],\
-            ["@types/next", null],\
-            ["@types/nprogress", "npm:0.2.0"],\
-            ["@types/react", "npm:18.0.26"],\
-            ["next", "virtual:2d7ca7bd0b1301c1c864df6ed647b35e9f02df90d2109e9757ffdcfc937061dcf2e49771bb2f8932f92d34a00dbeffabdbd28e10fec336200f68e05870583135#npm:13.1.1"],\
-            ["nprogress", "npm:0.2.0"],\
-            ["prop-types", "npm:15.8.1"],\
-            ["react", "npm:18.2.0"]\
-          ],\
-          "packagePeers": [\
-            "@types/next",\
-            "@types/react",\
-            "next",\
-            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6799,15 +6713,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["console-control-strings", "npm:1.1.0"],\
             ["gauge", "npm:4.0.4"],\
             ["set-blocking", "npm:2.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["nprogress", [\
-        ["npm:0.2.0", {\
-          "packageLocation": "./.yarn/cache/nprogress-npm-0.2.0-c1c0973624-66b7bec5d5.zip/node_modules/nprogress/",\
-          "packageDependencies": [\
-            ["nprogress", "npm:0.2.0"]\
           ],\
           "linkType": "HARD"\
         }]\

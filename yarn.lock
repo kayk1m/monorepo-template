@@ -17,6 +17,7 @@ __metadata:
     "@tailwindcss/typography": ^0.5.8
     "@types/node": ^18.11.18
     "@types/react": ^18.0.26
+    "@types/react-dom": ^18.0.10
     autoprefixer: ^10.4.13
     clsx: ^1.2.1
     eslint: ^8.31.0
@@ -25,7 +26,6 @@ __metadata:
     eslint-plugin-import: ^2.26.0
     eslint-plugin-unused-imports: ^2.0.0
     next: ^13.1.1
-    next-transpile-modules: ^10.0.0
     postcss: ^8.4.21
     postcss-focus-visible: ^7.1.0
     react: ^18.2.0
@@ -78,8 +78,8 @@ __metadata:
     "@packages/tsconfig": "workspace:*"
     "@packages/ui": "workspace:*"
     "@types/node": ^18.11.18
-    "@types/nprogress": ^0.2.0
     "@types/react": ^18.0.26
+    "@types/react-dom": ^18.0.10
     autoprefixer: ^10.4.13
     bowser: ^2.11.0
     eslint: ^8.31.0
@@ -91,7 +91,6 @@ __metadata:
     joi: ^17.7.0
     next: ^13.1.1
     next-transpile-modules: ^10.0.0
-    nextjs-progressbar: ^0.0.16
     postcss: ^8.4.21
     postcss-focus-visible: ^7.1.0
     react: ^18.2.0
@@ -952,13 +951,6 @@ __metadata:
   version: 18.11.18
   resolution: "@types/node@npm:18.11.18"
   checksum: 03f17f9480f8d775c8a72da5ea7e9383db5f6d85aa5fefde90dd953a1449bd5e4ffde376f139da4f3744b4c83942166d2a7603969a6f8ea826edfb16e6e3b49d
-  languageName: node
-  linkType: hard
-
-"@types/nprogress@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "@types/nprogress@npm:0.2.0"
-  checksum: 561384775008ae58111f038f8f9468b3de8987cd753feef9bf6d07af0e1343390d492a078bb08a7b53ac7370208e31e06ac069cb852c435d49f5fe218e9769c4
   languageName: node
   linkType: hard
 
@@ -5289,20 +5281,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nextjs-progressbar@npm:^0.0.16":
-  version: 0.0.16
-  resolution: "nextjs-progressbar@npm:0.0.16"
-  dependencies:
-    "@types/nprogress": ^0.2.0
-    nprogress: ^0.2.0
-    prop-types: ^15.8.1
-  peerDependencies:
-    next: ">= 6.0.0"
-    react: ">= 16.0.0"
-  checksum: b75f7bd1f336765aab203613e028ba5cb7e89590add46e4df435cc868bad042c2c5c6fe8c2cf1b127b1cae66eaae6e10d061b2908d7d4b6a9dcd79ad4e41bbcd
-  languageName: node
-  linkType: hard
-
 "nice-try@npm:^1.0.4":
   version: 1.0.5
   resolution: "nice-try@npm:1.0.5"
@@ -5442,13 +5420,6 @@ __metadata:
     gauge: ^4.0.0
     set-blocking: ^2.0.0
   checksum: f1a4078a73ebc89896a832bbf869f491c32ecb12e0434b9a7499878ce8f29f22e72befe3c53cd8cdc9dbf4b4057297e783ab0b6746a8b067734de6205af4d538
-  languageName: node
-  linkType: hard
-
-"nprogress@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "nprogress@npm:0.2.0"
-  checksum: 66b7bec5d563ecf2d1c3d2815e6d5eb74ed815eee8563e0afa63d3f185ab1b9cf2ddd97e1ded263b9995c5019d26d600320e849e50f3747984daa033744619dc
   languageName: node
   linkType: hard
 
