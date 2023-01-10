@@ -9,30 +9,30 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@apps/docs@workspace:apps/docs"
   dependencies:
-    "@mdx-js/loader": 2.2.1
-    "@mdx-js/react": 2.2.1
-    "@next/mdx": 12.3.4
+    "@mdx-js/loader": ^2.2.1
+    "@mdx-js/react": ^2.2.1
+    "@next/mdx": ^12.3.4
     "@packages/config": "workspace:*"
     "@packages/tsconfig": "workspace:*"
-    "@tailwindcss/typography": 0.5.8
+    "@tailwindcss/typography": ^0.5.8
     "@types/node": ^18.11.18
-    "@types/react": 18.0.26
-    autoprefixer: 10.4.13
-    clsx: 1.2.1
-    eslint: 8.31.0
-    eslint-config-next: 13.1.1
-    eslint-config-prettier: 8.6.0
-    eslint-plugin-import: 2.26.0
-    eslint-plugin-unused-imports: 2.0.0
-    next: 13.1.1
-    next-transpile-modules: 10.0.0
-    postcss: 8.4.21
-    postcss-focus-visible: 7.1.0
-    react: 18.2.0
-    react-dom: 18.2.0
-    tailwindcss: 3.2.4
-    typescript: 4.9.4
-    webpack: 5.75.0
+    "@types/react": ^18.0.26
+    autoprefixer: ^10.4.13
+    clsx: ^1.2.1
+    eslint: ^8.31.0
+    eslint-config-next: ^13.1.1
+    eslint-config-prettier: ^8.6.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-unused-imports: ^2.0.0
+    next: ^13.1.1
+    next-transpile-modules: ^10.0.0
+    postcss: ^8.4.21
+    postcss-focus-visible: ^7.1.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    tailwindcss: ^3.2.4
+    typescript: ^4.9.4
+    webpack: ^5.75.0
   languageName: unknown
   linkType: soft
 
@@ -40,33 +40,33 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@apps/server@workspace:apps/server"
   dependencies:
-    "@koa/cors": 4.0.0
-    "@koa/router": 12.0.0
+    "@koa/cors": ^4.0.0
+    "@koa/router": ^12.0.0
     "@packages/config": "workspace:*"
     "@packages/logger": "workspace:*"
     "@packages/tsconfig": "workspace:*"
-    "@types/koa": 2.13.5
-    "@types/koa-bodyparser": 4.3.10
-    "@types/koa-pino-logger": 3.0.1
-    "@types/koa__cors": 3.3.0
-    "@types/koa__router": 12.0.0
-    "@types/node": 18.11.18
-    "@typescript-eslint/parser": 5.48.1
-    dotenv: 16.0.3
-    eslint: 8.31.0
-    eslint-config-prettier: 8.6.0
-    eslint-plugin-import: 2.26.0
-    eslint-plugin-unused-imports: 2.0.0
-    ioredis: 5.2.4
-    koa: 2.14.1
-    koa-bodyparser: 4.3.0
-    koa-helmet: 6.1.0
-    nodemon: 2.0.20
-    npm-run-all: 4.1.5
-    rate-limiter-flexible: 2.4.1
-    ts-node: 10.9.1
-    typescript: 4.9.4
-    zod: 3.20.2
+    "@types/koa": ^2.13.5
+    "@types/koa-bodyparser": ^4.3.10
+    "@types/koa-pino-logger": ^3.0.1
+    "@types/koa__cors": ^3.3.0
+    "@types/koa__router": ^12.0.0
+    "@types/node": ^18.11.18
+    "@typescript-eslint/parser": ^5.48.1
+    dotenv: ^16.0.3
+    eslint: ^8.31.0
+    eslint-config-prettier: ^8.6.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-unused-imports: ^2.0.0
+    ioredis: ^5.2.4
+    koa: ^2.14.1
+    koa-bodyparser: ^4.3.0
+    koa-helmet: ^6.1.0
+    nodemon: ^2.0.20
+    npm-run-all: ^4.1.5
+    rate-limiter-flexible: ^2.4.1
+    ts-node: ^10.9.1
+    typescript: ^4.9.4
+    zod: ^3.20.2
   languageName: unknown
   linkType: soft
 
@@ -77,27 +77,27 @@ __metadata:
     "@packages/config": "workspace:*"
     "@packages/tsconfig": "workspace:*"
     "@packages/ui": "workspace:*"
-    "@types/node": 18.11.18
-    "@types/nprogress": 0.2.0
-    "@types/react": 18.0.26
-    autoprefixer: 10.4.13
-    bowser: 2.11.0
-    eslint: 8.31.0
-    eslint-config-next: 13.1.1
-    eslint-config-prettier: 8.6.0
-    eslint-plugin-import: 2.26.0
-    eslint-plugin-unused-imports: 2.0.0
-    immutability-helper: 3.1.1
-    joi: 17.7.0
-    next: 13.1.1
-    next-transpile-modules: 10.0.0
-    nextjs-progressbar: 0.0.16
-    postcss: 8.4.21
-    postcss-focus-visible: 7.1.0
-    react: 18.2.0
-    react-dom: 18.2.0
-    tailwindcss: 3.2.4
-    typescript: 4.9.4
+    "@types/node": ^18.11.18
+    "@types/nprogress": ^0.2.0
+    "@types/react": ^18.0.26
+    autoprefixer: ^10.4.13
+    bowser: ^2.11.0
+    eslint: ^8.31.0
+    eslint-config-next: ^13.1.1
+    eslint-config-prettier: ^8.6.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-unused-imports: ^2.0.0
+    immutability-helper: ^3.1.1
+    joi: ^17.7.0
+    next: ^13.1.1
+    next-transpile-modules: ^10.0.0
+    nextjs-progressbar: ^0.0.16
+    postcss: ^8.4.21
+    postcss-focus-visible: ^7.1.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    tailwindcss: ^3.2.4
+    typescript: ^4.9.4
   languageName: unknown
   linkType: soft
 
@@ -159,7 +159,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@headlessui/react@npm:1.7.7":
+"@headlessui/react@npm:^1.7.7":
   version: 1.7.7
   resolution: "@headlessui/react@npm:1.7.7"
   dependencies:
@@ -171,7 +171,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@heroicons/react@npm:2.0.13":
+"@heroicons/react@npm:^2.0.13":
   version: 2.0.13
   resolution: "@heroicons/react@npm:2.0.13"
   peerDependencies:
@@ -236,7 +236,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@koa/cors@npm:4.0.0":
+"@koa/cors@npm:^4.0.0":
   version: 4.0.0
   resolution: "@koa/cors@npm:4.0.0"
   dependencies:
@@ -245,7 +245,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@koa/router@npm:12.0.0":
+"@koa/router@npm:^12.0.0":
   version: 12.0.0
   resolution: "@koa/router@npm:12.0.0"
   dependencies:
@@ -257,7 +257,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/loader@npm:2.2.1":
+"@mdx-js/loader@npm:^2.2.1":
   version: 2.2.1
   resolution: "@mdx-js/loader@npm:2.2.1"
   dependencies:
@@ -294,7 +294,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/react@npm:2.2.1":
+"@mdx-js/react@npm:^2.2.1":
   version: 2.2.1
   resolution: "@mdx-js/react@npm:2.2.1"
   dependencies:
@@ -322,7 +322,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/mdx@npm:12.3.4":
+"@next/mdx@npm:^12.3.4":
   version: 12.3.4
   resolution: "@next/mdx@npm:12.3.4"
   peerDependencies:
@@ -473,6 +473,15 @@ __metadata:
 "@packages/config@workspace:*, @packages/config@workspace:packages/config":
   version: 0.0.0-use.local
   resolution: "@packages/config@workspace:packages/config"
+  dependencies:
+    "@typescript-eslint/parser": ^5.48.1
+    eslint: ^8.31.0
+    eslint-config-next: ^13.1.1
+    eslint-config-prettier: ^8.6.0
+    eslint-import-resolver-node: ^0.3.6
+    eslint-import-resolver-typescript: ^3.5.2
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-unused-imports: ^2.0.0
   languageName: unknown
   linkType: soft
 
@@ -482,15 +491,16 @@ __metadata:
   dependencies:
     "@packages/config": "workspace:*"
     "@packages/tsconfig": "workspace:*"
-    "@types/koa-pino-logger": 3.0.1
-    "@types/node": 18.11.18
-    eslint: 8.31.0
-    eslint-config-prettier: 8.6.0
-    eslint-plugin-import: 2.26.0
-    eslint-plugin-unused-imports: 2.0.0
-    koa-pino-logger: 4.0.0
-    pino: 8.8.0
-    typescript: 4.9.4
+    "@types/koa-pino-logger": ^3.0.1
+    "@types/node": ^18.11.18
+    "@typescript-eslint/parser": ^5.48.1
+    eslint: ^8.31.0
+    eslint-config-prettier: ^8.6.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-unused-imports: ^2.0.0
+    koa-pino-logger: ^4.0.0
+    pino: ^8.8.0
+    typescript: ^4.9.4
   languageName: unknown
   linkType: soft
 
@@ -512,22 +522,22 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@packages/ui@workspace:packages/ui"
   dependencies:
-    "@headlessui/react": 1.7.7
-    "@heroicons/react": 2.0.13
+    "@headlessui/react": ^1.7.7
+    "@heroicons/react": ^2.0.13
     "@packages/config": "workspace:*"
     "@packages/tsconfig": "workspace:*"
-    "@types/react": 18.0.26
-    "@types/react-dom": 18.0.10
-    clsx: 1.2.1
-    eslint: 8.31.0
-    eslint-config-next: 13.1.1
-    eslint-config-prettier: 8.6.0
-    eslint-plugin-import: 2.26.0
-    eslint-plugin-unused-imports: 2.0.0
-    next: 13.1.1
-    react: 18.2.0
-    react-dom: 18.2.0
-    typescript: 4.9.4
+    "@types/react": ^18.0.26
+    "@types/react-dom": ^18.0.10
+    clsx: ^1.2.1
+    eslint: ^8.31.0
+    eslint-config-next: ^13.1.1
+    eslint-config-prettier: ^8.6.0
+    eslint-plugin-import: ^2.26.0
+    eslint-plugin-unused-imports: ^2.0.0
+    next: ^13.1.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    typescript: ^4.9.4
   languageName: unknown
   linkType: soft
 
@@ -584,7 +594,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/typography@npm:0.5.8":
+"@tailwindcss/typography@npm:^0.5.8":
   version: 0.5.8
   resolution: "@tailwindcss/typography@npm:0.5.8"
   dependencies:
@@ -815,7 +825,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/koa-bodyparser@npm:4.3.10":
+"@types/koa-bodyparser@npm:^4.3.10":
   version: 4.3.10
   resolution: "@types/koa-bodyparser@npm:4.3.10"
   dependencies:
@@ -833,7 +843,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/koa-pino-logger@npm:3.0.1":
+"@types/koa-pino-logger@npm:^3.0.1":
   version: 3.0.1
   resolution: "@types/koa-pino-logger@npm:3.0.1"
   dependencies:
@@ -860,7 +870,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/koa@npm:2.13.5":
+"@types/koa@npm:^2.13.5":
   version: 2.13.5
   resolution: "@types/koa@npm:2.13.5"
   dependencies:
@@ -876,7 +886,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/koa__cors@npm:3.3.0":
+"@types/koa__cors@npm:^3.3.0":
   version: 3.3.0
   resolution: "@types/koa__cors@npm:3.3.0"
   dependencies:
@@ -885,7 +895,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/koa__router@npm:12.0.0":
+"@types/koa__router@npm:^12.0.0":
   version: 12.0.0
   resolution: "@types/koa__router@npm:12.0.0"
   dependencies:
@@ -938,14 +948,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.11.18, @types/node@npm:^18.11.18":
+"@types/node@npm:^18.11.18":
   version: 18.11.18
   resolution: "@types/node@npm:18.11.18"
   checksum: 03f17f9480f8d775c8a72da5ea7e9383db5f6d85aa5fefde90dd953a1449bd5e4ffde376f139da4f3744b4c83942166d2a7603969a6f8ea826edfb16e6e3b49d
   languageName: node
   linkType: hard
 
-"@types/nprogress@npm:0.2.0, @types/nprogress@npm:^0.2.0":
+"@types/nprogress@npm:^0.2.0":
   version: 0.2.0
   resolution: "@types/nprogress@npm:0.2.0"
   checksum: 561384775008ae58111f038f8f9468b3de8987cd753feef9bf6d07af0e1343390d492a078bb08a7b53ac7370208e31e06ac069cb852c435d49f5fe218e9769c4
@@ -1013,7 +1023,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.0.10":
+"@types/react-dom@npm:^18.0.10":
   version: 18.0.10
   resolution: "@types/react-dom@npm:18.0.10"
   dependencies:
@@ -1022,7 +1032,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.0.26":
+"@types/react@npm:*, @types/react@npm:^18.0.26":
   version: 18.0.26
   resolution: "@types/react@npm:18.0.26"
   dependencies:
@@ -1068,7 +1078,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:5.48.1, @typescript-eslint/parser@npm:^5.42.0":
+"@typescript-eslint/parser@npm:^5.42.0, @typescript-eslint/parser@npm:^5.48.1":
   version: 5.48.1
   resolution: "@typescript-eslint/parser@npm:5.48.1"
   dependencies:
@@ -1616,7 +1626,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10.4.13":
+"autoprefixer@npm:^10.4.13":
   version: 10.4.13
   resolution: "autoprefixer@npm:10.4.13"
   dependencies:
@@ -1685,7 +1695,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bowser@npm:2.11.0":
+"bowser@npm:^2.11.0":
   version: 2.11.0
   resolution: "bowser@npm:2.11.0"
   checksum: 29c3f01f22e703fa6644fc3b684307442df4240b6e10f6cfe1b61c6ca5721073189ca97cdeedb376081148c8518e33b1d818a57f781d70b0b70e1f31fb48814f
@@ -1934,7 +1944,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:1.2.1":
+"clsx@npm:^1.2.1":
   version: 1.2.1
   resolution: "clsx@npm:1.2.1"
   checksum: 30befca8019b2eb7dbad38cff6266cf543091dae2825c856a62a8ccf2c3ab9c2907c4d12b288b73101196767f66812365400a227581484a05f968b0307cfaf12
@@ -2356,7 +2366,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:16.0.3":
+"dotenv@npm:^16.0.3":
   version: 16.0.3
   resolution: "dotenv@npm:16.0.3"
   checksum: afcf03f373d7a6d62c7e9afea6328e62851d627a4e73f2e12d0a8deae1cd375892004f3021883f8aec85932cd2834b091f568ced92b4774625b321db83b827f8
@@ -2618,7 +2628,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:13.1.1":
+"eslint-config-next@npm:^13.1.1":
   version: 13.1.1
   resolution: "eslint-config-next@npm:13.1.1"
   dependencies:
@@ -2641,7 +2651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:8.6.0":
+"eslint-config-prettier@npm:^8.6.0":
   version: 8.6.0
   resolution: "eslint-config-prettier@npm:8.6.0"
   peerDependencies:
@@ -2690,7 +2700,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.26.0, eslint-plugin-import@npm:^2.26.0":
+"eslint-plugin-import@npm:^2.26.0":
   version: 2.26.0
   resolution: "eslint-plugin-import@npm:2.26.0"
   dependencies:
@@ -2773,7 +2783,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unused-imports@npm:2.0.0":
+"eslint-plugin-unused-imports@npm:^2.0.0":
   version: 2.0.0
   resolution: "eslint-plugin-unused-imports@npm:2.0.0"
   dependencies:
@@ -2840,7 +2850,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.31.0":
+"eslint@npm:^8.31.0":
   version: 8.31.0
   resolution: "eslint@npm:8.31.0"
   dependencies:
@@ -3649,7 +3659,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"immutability-helper@npm:3.1.1":
+"immutability-helper@npm:^3.1.1":
   version: 3.1.1
   resolution: "immutability-helper@npm:3.1.1"
   checksum: 6fdbf6d2123efa567263e904bbaff07aca0e24560d270d34967b03aab8ec20bd3e4057f394d59e50eb6c4718c9415591a6281692bb0aafd522ad72cf4887133f
@@ -3740,7 +3750,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ioredis@npm:5.2.4":
+"ioredis@npm:^5.2.4":
   version: 5.2.4
   resolution: "ioredis@npm:5.2.4"
   dependencies:
@@ -4124,7 +4134,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"joi@npm:17.7.0":
+"joi@npm:^17.7.0":
   version: 17.7.0
   resolution: "joi@npm:17.7.0"
   dependencies:
@@ -4237,7 +4247,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koa-bodyparser@npm:4.3.0":
+"koa-bodyparser@npm:^4.3.0":
   version: 4.3.0
   resolution: "koa-bodyparser@npm:4.3.0"
   dependencies:
@@ -4264,7 +4274,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koa-helmet@npm:6.1.0":
+"koa-helmet@npm:^6.1.0":
   version: 6.1.0
   resolution: "koa-helmet@npm:6.1.0"
   dependencies:
@@ -4273,7 +4283,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koa-pino-logger@npm:4.0.0":
+"koa-pino-logger@npm:^4.0.0":
   version: 4.0.0
   resolution: "koa-pino-logger@npm:4.0.0"
   dependencies:
@@ -4282,7 +4292,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koa@npm:2.14.1":
+"koa@npm:^2.14.1":
   version: 2.14.1
   resolution: "koa@npm:2.14.1"
   dependencies:
@@ -5202,7 +5212,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-transpile-modules@npm:10.0.0":
+"next-transpile-modules@npm:^10.0.0":
   version: 10.0.0
   resolution: "next-transpile-modules@npm:10.0.0"
   dependencies:
@@ -5211,7 +5221,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:13.1.1":
+"next@npm:*, next@npm:^13.1.1":
   version: 13.1.1
   resolution: "next@npm:13.1.1"
   dependencies:
@@ -5279,7 +5289,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nextjs-progressbar@npm:0.0.16":
+"nextjs-progressbar@npm:^0.0.16":
   version: 0.0.16
   resolution: "nextjs-progressbar@npm:0.0.16"
   dependencies:
@@ -5334,7 +5344,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemon@npm:2.0.20":
+"nodemon@npm:^2.0.20":
   version: 2.0.20
   resolution: "nodemon@npm:2.0.20"
   dependencies:
@@ -5402,7 +5412,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-run-all@npm:4.1.5":
+"npm-run-all@npm:^4.1.5":
   version: 4.1.5
   resolution: "npm-run-all@npm:4.1.5"
   dependencies:
@@ -5888,27 +5898,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino@npm:8.8.0":
-  version: 8.8.0
-  resolution: "pino@npm:8.8.0"
-  dependencies:
-    atomic-sleep: ^1.0.0
-    fast-redact: ^3.1.1
-    on-exit-leak-free: ^2.1.0
-    pino-abstract-transport: v1.0.0
-    pino-std-serializers: ^6.0.0
-    process-warning: ^2.0.0
-    quick-format-unescaped: ^4.0.3
-    real-require: ^0.2.0
-    safe-stable-stringify: ^2.3.1
-    sonic-boom: ^3.1.0
-    thread-stream: ^2.0.0
-  bin:
-    pino: bin.js
-  checksum: 69256469221b332776333069d637100053eb15dc7baa3f95897d7864bf2e6fd99f15cfd9cfc94b56e7b00da2e6b349c49affcff1abaca9a3d4b7ba63ff86b4f0
-  languageName: node
-  linkType: hard
-
 "pino@npm:^7.5.0":
   version: 7.10.0
   resolution: "pino@npm:7.10.0"
@@ -5930,7 +5919,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-focus-visible@npm:7.1.0":
+"pino@npm:^8.8.0":
+  version: 8.8.0
+  resolution: "pino@npm:8.8.0"
+  dependencies:
+    atomic-sleep: ^1.0.0
+    fast-redact: ^3.1.1
+    on-exit-leak-free: ^2.1.0
+    pino-abstract-transport: v1.0.0
+    pino-std-serializers: ^6.0.0
+    process-warning: ^2.0.0
+    quick-format-unescaped: ^4.0.3
+    real-require: ^0.2.0
+    safe-stable-stringify: ^2.3.1
+    sonic-boom: ^3.1.0
+    thread-stream: ^2.0.0
+  bin:
+    pino: bin.js
+  checksum: 69256469221b332776333069d637100053eb15dc7baa3f95897d7864bf2e6fd99f15cfd9cfc94b56e7b00da2e6b349c49affcff1abaca9a3d4b7ba63ff86b4f0
+  languageName: node
+  linkType: hard
+
+"postcss-focus-visible@npm:^7.1.0":
   version: 7.1.0
   resolution: "postcss-focus-visible@npm:7.1.0"
   dependencies:
@@ -6022,7 +6032,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.21, postcss@npm:^8.4.18":
+"postcss@npm:^8.4.18, postcss@npm:^8.4.21":
   version: 8.4.21
   resolution: "postcss@npm:8.4.21"
   dependencies:
@@ -6040,7 +6050,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:0.2.1":
+"prettier-plugin-tailwindcss@npm:^0.2.1":
   version: 0.2.1
   resolution: "prettier-plugin-tailwindcss@npm:0.2.1"
   peerDependencies:
@@ -6049,7 +6059,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.2":
+"prettier@npm:^2.8.2":
   version: 2.8.2
   resolution: "prettier@npm:2.8.2"
   bin:
@@ -6174,7 +6184,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rate-limiter-flexible@npm:2.4.1":
+"rate-limiter-flexible@npm:^2.4.1":
   version: 2.4.1
   resolution: "rate-limiter-flexible@npm:2.4.1"
   checksum: 5eea3ffbb6a11f634edd8b9575815c2bf239a8becdfdc82c4183cad92025e853913972a2b2f2d45c16e81aea1a3451fbad8da76dee1ba0e4549c22a0ba58c50f
@@ -6193,7 +6203,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0":
+"react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -6212,7 +6222,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0":
+"react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -6469,11 +6479,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    eslint: 8.31.0
-    prettier: 2.8.2
-    prettier-plugin-tailwindcss: 0.2.1
-    turbo: 1.6.3
-    typescript: 4.9.4
+    eslint: ^8.31.0
+    prettier: ^2.8.2
+    prettier-plugin-tailwindcss: ^0.2.1
+    turbo: ^1.6.3
+    typescript: ^4.9.4
   languageName: unknown
   linkType: soft
 
@@ -7059,7 +7069,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:3.2.4":
+"tailwindcss@npm:^3.2.4":
   version: 3.2.4
   resolution: "tailwindcss@npm:3.2.4"
   dependencies:
@@ -7221,7 +7231,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:10.9.1":
+"ts-node@npm:^10.9.1":
   version: 10.9.1
   resolution: "ts-node@npm:10.9.1"
   dependencies:
@@ -7345,7 +7355,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo@npm:1.6.3":
+"turbo@npm:^1.6.3":
   version: 1.6.3
   resolution: "turbo@npm:1.6.3"
   dependencies:
@@ -7411,7 +7421,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.9.4":
+"typescript@npm:^4.9.4":
   version: 4.9.4
   resolution: "typescript@npm:4.9.4"
   bin:
@@ -7421,7 +7431,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.9.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
   version: 4.9.4
   resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"
   bin:
@@ -7709,7 +7719,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.75.0":
+"webpack@npm:^5.75.0":
   version: 5.75.0
   resolution: "webpack@npm:5.75.0"
   dependencies:
@@ -7872,7 +7882,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:3.20.2":
+"zod@npm:^3.20.2":
   version: 3.20.2
   resolution: "zod@npm:3.20.2"
   checksum: 04172f7e9350372684ccd298d4716908edc9113751295b6c4e1b3ea84e2af8997e504b33ba36f4741417bb2a5dc90bfd40501f6b0e7389df10e42a63d6d8366c
