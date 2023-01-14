@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "nodemon src/index.ts | pino-pretty -c -t \"mm-dd HH:MM:ss.l\" -f",
+    "dev": "nodemon src/index.ts",
     "d-up": "docker-compose up -d",
     "d-down": "docker-compose down --volumes --remove-orphans",
     "dx": "run-s d-up dev",
-    "build": "yarn lib:build && tsc --build",
+    "build": "tsc --build",
     "start": "NODE_ENV=production node ./dist/index.js",
     "lint": "eslint --ext .ts,.js ./src",
     "test": "echo \"Test script has not defined.\""
@@ -15,7 +15,6 @@
   "dependencies": {
     "@koa/cors": "^4.0.0",
     "@koa/router": "^12.0.0",
-    "@packages/logger": "workspace:*",
     "dotenv": "^16.0.3",
     "ioredis": "^5.2.4",
     "koa": "^2.14.1",
@@ -29,7 +28,6 @@
     "@packages/tsconfig": "workspace:*",
     "@types/koa": "^2.13.5",
     "@types/koa-bodyparser": "^4.3.10",
-    "@types/koa-pino-logger": "^3.0.1",
     "@types/koa__cors": "^3.3.0",
     "@types/koa__router": "^12.0.0",
     "@types/node": "^18.11.18",
