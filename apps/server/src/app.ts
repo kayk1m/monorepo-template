@@ -2,8 +2,8 @@ import cors from '@koa/cors';
 import Koa from 'koa';
 import helmet from 'koa-helmet';
 
-import errorRouter from './routes/error';
-import statusRouter from './routes/status';
+import errorRouter from '@/routes/error';
+import statusRouter from '@/routes/status';
 
 const app = new Koa();
 
