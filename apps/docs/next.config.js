@@ -1,19 +1,11 @@
-/** @see https://nextjs.org/docs/advanced-features/using-mdx */
+/** @see https://nextra.site/docs/docs-theme/start */
 
-const withMDX = require('@next/mdx')({
-  extension: /\.mdx?$/,
-  options: {
-    remarkPlugins: [],
-    rehypePlugins: [],
-    // If you use `MDXProvider`, uncomment the following line.
-    // providerImportSource: "@mdx-js/react",
-  },
+const withNextra = require('nextra')({
+  theme: 'nextra-theme-docs',
+  themeConfig: './theme.config.jsx',
 });
 
 /** @type {import('next').NextConfig} */
-module.exports = withMDX({
-  // Append the default value with md extensions
-  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+const config = {};
 
-  reactStrictMode: true,
-});
+module.exports = withNextra(config);
